@@ -1,6 +1,6 @@
 import React from "react";
 import Slider from "react-slick";
-import Image1 from "../../assets/hero/headphone.png";
+import logo from "../../assets/category/logoqueimadas.png";
 import Image2 from "../../assets/category/vr.png";
 import Image3 from "../../assets/category/macbook.png";
 import Button from "../Shared/Button";
@@ -8,10 +8,10 @@ import Button from "../Shared/Button";
 const HeroData = [
   {
     id: 1,
-    img: Image1,
-    subtitle: "Beats Solo",
-    title: "Wireless",
-    title2: "Headphone",
+    img:logo,
+    subtitle: "Viaje conosco",
+    title: "",
+    title2: "",
   },
   {
     id: 2,

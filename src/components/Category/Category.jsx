@@ -13,10 +13,10 @@ const Category = () => {
           <div className="py-10 pl-5 bg-gradient-to-br from-black/90 to-black/70 text-white rounded-3xl relative h-[320px] flex items-end">
             <div>
               <div className="mb-4">
-                <p className="mb-[2px] text-gray-400">Enjoy</p>
-                <p className="text-2xl font-semibold mb-[2px]">With</p>
+                <p className="mb-[2px] text-gray-400">Viaje para</p>
+                <p className="text-2xl font-semibold mb-[2px]">são paulo</p>
                 <p className="text-4xl xl:text-5xl font-bold opacity-20 mb-2">
-                  Earphone
+                  
                 </p>
                 <Button
                   text="Browse"
@@ -25,26 +25,26 @@ const Category = () => {
                 />
               </div>
             </div>
-            <img src={Image1} alt="" className="w-[320px] absolute bottom-0" />
+            <img  alt="" className="w-[320px] absolute bottom-0" />
           </div>
           {/* second col */}
           <div className="py-10 pl-5 bg-gradient-to-br from-brandYellow to-brandYellow/90 text-white rounded-3xl relative h-[320px] flex items-end">
             <div>
-              <div className="mb-4">
-                <p className="mb-[2px] text-white">Enjoy</p>
+              <div className="mb-4" style={{ color: "#FC6203" }}>
+                <p className="mb-[2px]">Enjoy</p>
                 <p className="text-2xl font-semibold mb-[2px]">With</p>
                 <p className="text-4xl xl:text-5xl font-bold opacity-40 mb-2">
-                  Gadget
+                  
                 </p>
                 <Button
                   text="Browse"
                   bgColor={"bg-white"}
-                  textColor={"text-brandYellow"}
+                  textColor={"text-fc6203"}
                 />
               </div>
             </div>
             <img
-              src={Image2}
+              
               alt=""
               className="w-[320px] absolute -right-4 lg:top-[40px]"
             />
@@ -52,21 +52,21 @@ const Category = () => {
           {/* third col */}
           <div className="sm:col-span-2 py-10 pl-5 bg-gradient-to-br from-primary to-primary/90 text-white rounded-3xl relative h-[320px] flex items-end">
             <div>
-              <div className="mb-4">
-                <p className="mb-[2px] text-white">Enjoy</p>
-                <p className="text-2xl font-semibold mb-[2px]">With</p>
+              <div className="mb-4" style={{ color: "#FC6203" }}>
+                <p className="mb-[2px]">Viaje para</p>
+                <p className="text-2xl font-semibold mb-[2px]">Aparecida</p>
                 <p className="text-4xl xl:text-5xl font-bold opacity-40 mb-2">
-                  Laptop
+                  
                 </p>
                 <Button
                   text="Browse"
                   bgColor={"bg-white"}
-                  textColor={"text-primary"}
+                  textColor={"text-fc6203"}
                 />
               </div>
             </div>
             <img
-              src={Image3}
+              
               alt=""
               className="w-[250px] absolute top-1/2 -translate-y-1/2 -right-0"
             />

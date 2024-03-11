@@ -45,7 +45,7 @@ const Banner = ({ data }) => {
             </p>
             <div data-aos="fade-up" data-aos-offset="0">
               <button
-                style={{ color: data.bgColor }}
+                style={{ color: "#FC6203"  }}
                 className="bg-white py-2 px-4 rounded-full"
               >
                 Shop Now
