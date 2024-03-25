@@ -1,6 +1,6 @@
 import React from "react";
 import Slider from "react-slick";
-import logo from "../../assets/category/logoqueimadas.png";
+import logo from "../../assets/category/banner.png";
 import Image2 from "../../assets/category/vr.png";
 import Image3 from "../../assets/category/macbook.png";
 import Button from "../Shared/Button";
@@ -88,9 +88,9 @@ const Hero = ({ handleOrderPopup }) => {
                     >
                       <Button
                         text="Shop By Category"
-                        bgColor="bg-primary"
+                        bgColor="#DB732A"
                         textColor="text-white"
-                        handler={handleOrderPopup}
+                        handler={() => {}}
                       />
                     </div>
                   </div>
