@@ -18,14 +18,13 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 
 const BannerData = {
-  discount: "30% OFF",
-  title: "Fine Smile",
-  date: "10 Jan to 28 Jan",
-  image: logo,
-  title2: "Air Solo Bass",
-  title3: "Winter Sale",
+  discount: "Faça sua reserva",
+  title: "Viagem conosco",
+  date: "",
+  title2: "",
+  title3: "Queimadas Tour",
   title4:
-    "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque reiciendis",
+    "Fundada em 2019 por dois estudantes adolescentes ávidos por escapar da rotina escolar, a Queimadas Tour rapidamente se estabeleceu como uma paixão por explorar novos destinos. Apesar da pausa imposta pela pandemia em 2020, logo retomamos nossas atividades após as flexibilizações. Nos anos seguintes, fomos honrados com o título de melhor agência de excursões em votações online consecutivas de 2022 a 2024. Esse reconhecimento é um reflexo direto do trabalho árduo de nossa equipe de 10 profissionais dedicados, que se esforçam diariamente para garantir o pleno funcionamento da agência. Hoje, a Queimadas Tour é sinônimo de atendimento \nqualificado, oferecendo aos nossos clientes não apenas conforto e segurança, mas também uma experiência de atendimento excepcional. Estamos comprometidos em continuar sendo uma referência no setor, proporcionando viagens inesquecíveis e momentos extraordinários aos nossos clientes.",
   bgColor: "#9eadb7",
 };
 

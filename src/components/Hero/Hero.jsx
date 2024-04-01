@@ -8,7 +8,7 @@ import Button from "../Shared/Button";
 const HeroData = [
   {
     id: 1,
-    img:logo,
+    img: logo,
     subtitle: "Viaje conosco",
     title: "",
     title2: "",
@@ -42,12 +42,14 @@ const Hero = ({ handleOrderPopup }) => {
     pauseOnHover: false,
     pauseOnFocus: true,
   };
+
+  const openPopup = () => {
+    handleOrderPopup(true); 
+  };
+
   return (
     <div className="container">
-      <div
-        className="overflow-hidden rounded-3xl min-h-[550px] sm:min-h-[650px] hero-bg-color flex justify-center items-center
-"
-      >
+      <div className="overflow-hidden rounded-3xl min-h-[550px] sm:min-h-[650px] hero-bg-color flex justify-center items-center">
         <div className="container pb-8 sm:pb-0">
           {/* Hero section */}
           <Slider {...settings}>
@@ -90,7 +92,7 @@ const Hero = ({ handleOrderPopup }) => {
                         text="Shop By Category"
                         bgColor="#DB732A"
                         textColor="text-white"
-                        handler={() => {}}
+                        handler={openPopup} 
                       />
                     </div>
                   </div>

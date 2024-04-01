@@ -8,26 +8,14 @@ import Img3 from "../../assets/blogs/blog-3.jpg";
 
 const BlogData = [
   {
-    title: "How to choose perfect smartwatch",
-    subtitle:
-      "minima facere deserunt vero illo beatae deleniti eius dolores consequuntur, eligendi corporis maiores molestiae laudantium. Porro?",
-    published: "Jan 20, 2024 by Dilshad",
     image: Img1,
     aosDelay: "0",
   },
   {
-    title: "How to choose perfect gadget",
-    subtitle:
-      "minima facere deserunt vero illo beatae deleniti eius dolores consequuntur, eligendi corporis maiores molestiae laudantium. Porro?",
-    published: "Jan 20, 2024 by Satya",
     image: Img2,
     aosDelay: "200",
   },
   {
-    title: "How to choose perfect VR headset",
-    subtitle:
-      "minima facere deserunt vero illo beatae deleniti eius dolores consequuntur, eligendi corporis maiores molestiae laudantium. Porro?",
-    published: "Jan 20, 2024 by Sabir",
     image: Img3,
     aosDelay: "400",
   },
@@ -37,7 +25,7 @@ const Blogs = () => {
     <div className="my-12">
       <div className="container">
         {/* Header section */}
-        <Heading title="Recent News" subtitle={"Explore Our Blogs"} />
+        <Heading title="Feedback" subtitle={""} />
 
         {/* Blog section */}
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 gap-y-8 sm:gap-4 md:gap-7">
