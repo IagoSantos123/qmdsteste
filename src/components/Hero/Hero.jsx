@@ -89,7 +89,7 @@ const Hero = ({ handleOrderPopup }) => {
                       data-aos-delay="300"
                     >
                       <Button
-                        text="Shop By Category"
+                        text="Faça sua reserva"
                         bgColor="#DB732A"
                         textColor="text-white"
                         handler={openPopup} 

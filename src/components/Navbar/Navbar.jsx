@@ -2,7 +2,7 @@ import React from "react";
 import { IoMdSearch } from "react-icons/io";
 import { FaCaretDown, FaCartShopping } from "react-icons/fa6";
 import DarkMode from "./DarkMode";
-import logo from "../../assets/logo.png"; 
+import logo from "../../assets/logo.png";
 
 const MenuLinks = [
   {
@@ -34,7 +34,7 @@ const MenuLinks = [
 
 const Navbar = ({ handleOrderPopup }) => {
   return (
-    <div className="bg-white dark:bg-gray-900 dark:text-white duration-200 relative z-40">
+    <div style={{ backgroundColor: "#0E0E0E" }} className="dark:bg-gray-900 dark:text-white duration-200 relative z-40">
       <div className="py-4">
         <div className="container flex justify-between items-center">
           {/* Logo and Links section */}

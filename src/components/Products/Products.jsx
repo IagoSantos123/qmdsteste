@@ -4,7 +4,6 @@ import ProductCard from "./ProductCard";
 
 // images import
 import Img1 from "../../assets/product/pontanegra.jpg";
-
 import Img2 from "../../assets/product/pipa2.jpg";
 import Img3 from "../../assets/product/portodegalinhas.jpg";
 import Img4 from "../../assets/product/maragogi.jpg";

@@ -8,7 +8,7 @@ import Banner from "./components/Banner/Banner";
 import Partners from "./components/Partners/Partners.jsx";
 
 import logo from "./assets/category/logoqueimadas.png";
-import onibus from "./assets/category/onibus.png";
+import onibus from "./assets/category/onibus2.png";
 
 import Products from "./components/Products/Products";
 import Blogs from "./components/Blogs/Blogs";

@@ -1,28 +1,21 @@
 import React from "react";
 import Button from "../Shared/Button";
 
-// Importe as imagens diretamente
-import Img1 from "../../assets/product/pontanegra.jpg";
-import Img2 from "../../assets/product/p-2.jpg";
-import Img3 from "../../assets/product/p-3.jpg";
-import Img4 from "../../assets/product/p-4.jpg";
-
 const ProductCard = ({ data }) => {
   return (
     <div className="mb-10">
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-5 place-items-center">
         {/* card section */}
-        {data.map((product) => (
+        {data.map((data) => (
           <div
             data-aos="fade-up"
-            data-aos-delay={product.aosDelay}
+            data-aos-delay={data.aosDelay}
             className="group"
-            key={product.id}
+            key={data.id}
           >
             <div className="relative">
-              {/* Use a propriedade img do produto atual */}
               <img
-                src={product.img} // Use product.img em vez de data.img
+                src={data.img}
                 alt=""
                 className="h-[180px] w-[260px] object-cover rounded-md"
               />
@@ -36,8 +29,8 @@ const ProductCard = ({ data }) => {
               </div>
             </div>
             <div className="leading-7">
-              <h2 className="font-semibold">{product.title}</h2>
-              <h2 className="font-bold">{product.price}</h2>
+              <h2 className="font-semibold">{data.title}</h2>
+              <h2 className="font-bold">{data.price}</h2>
             </div>
           </div>
         ))}

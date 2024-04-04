@@ -19,7 +19,7 @@ const Footer = () => {
           <div className="py-8 px-4">
             <a
               href="#"
-              className="text-orange-500 font-semibold tracking-widest text-2xl uppercase sm:text-3xl" // Alterando a cor do texto para laranja
+              className="text-orange-500 font-semibold tracking-widest text-2xl uppercase sm:text-3xl" 
             >
               QUEIMADAS TOUR
             </a>
@@ -28,7 +28,7 @@ const Footer = () => {
             <a
               href="https://api.whatsapp.com/send?phone=5583998545395"
               target="_blank"
-              className="inline-block bg-orange-500 text-white py-2 px-4 mt-4 text-sm rounded-full" // Alterando a classe para definir a cor laranja
+              className="inline-block bg-orange-500 text-white py-2 px-4 mt-4 text-sm rounded-full"  
             >
               Criado por MS Soluções Digitais
             </a>
